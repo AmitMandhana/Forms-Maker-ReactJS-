@@ -1,0 +1,100 @@
+/* src/components/FormBuilder.css */
+
+/* Background and Border Color */
+/* Body Background Gradient */
+body {
+    background: linear-gradient(135deg, #d3c831, #d8e2e9); /* Light to Dark gradient */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Form Builder Container */
+.form-builder {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #9ebeee; /* Light blue border */
+    border-radius: 5px;
+    background-color: #97db77; /* Light grey background */
+}
+
+/* Form Field Container */
+.form-field-container {
+    margin-bottom: 15px;
+}
+
+/* Form Field Label */
+.form-field-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark grey text */
+}
+
+/* Input Fields */
+.form-field-container input[type="text"],
+.form-field-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 3px;
+}
+
+/* Text Input */
+.form-field-container input[type="text"] {
+    margin-top: 5px;
+}
+
+/* Radio and Checkbox Inputs */
+.form-field-container input[type="radio"],
+.form-field-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Form Preview Container */
+.form-preview {
+    margin-top: 20px;
+}
+
+/* Form Preview Label */
+.form-preview label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Dark grey text */
+}
+
+/* Form Preview Inputs */
+.form-preview input[type="text"],
+.form-preview input[type="radio"],
+.form-preview input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* Button Group Container */
+.button-group {
+    margin-top: 20px;
+}
+
+/* Buttons */
+.button-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #4caf50; /* Green button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+/* Last Button */
+.button-group button:last-child {
+    margin-right: 0;
+}
+
+/* Button Hover Effect */
+.button-group button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
